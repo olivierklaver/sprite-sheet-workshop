@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box
+}
+
+body {
+	background: #ccc;
+	padding: 50px;
+}
+
+.character {
+	width: 103px;
+	height: 113px;
+	background: url(cuphead_sprites.png);
+	background-position-x: calc(0 * -103px);
+	background-position-y: calc(3 * -113px);
+}
